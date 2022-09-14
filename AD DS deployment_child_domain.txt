@@ -1,0 +1,20 @@
+#
+# Windows PowerShell script for AD DS Deployment
+#
+
+Import-Module ADDSDeployment
+Install-ADDSDomain `
+-NoGlobalCatalog:$false `
+-CreateDnsDelegation:$true `
+-DatabasePath "C:\Windows\NTDS" `
+-DomainMode "WinThreshold" `
+-DomainType "ChildDomain" `
+-InstallDns:$true `
+-LogPath "C:\Windows\NTDS" `
+-NewDomainName " " `
+-NewDomainNetbiosName " " `
+-ParentDomainName " " `
+-NoRebootOnCompletion:$false `
+-SiteName " " `
+-SysvolPath "C:\Windows\SYSVOL" `
+-Force:$true
