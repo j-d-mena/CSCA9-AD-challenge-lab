@@ -1,0 +1,2 @@
+# CSCA9-AD-challenge-lab
+this is to recreate the active directory challenge lab for CSCA9. scenario is "In this challenge students utilize their acquired knowledge to modify an existing Active Directory Forest by installing a supporting domain controller in an Active Directory Site infrastructure simulating a routed wide area network of their own design. Additionally, DDNS infrastructure consisting of Primary and replicated Secondary zones were implemented by the students to support the expanded infrastructure"
